@@ -6,9 +6,9 @@ This script allows you to generate html tables from csv profiling files (LLM, FP
 
 ## How to use it
 1. Run script. It will ask administration rights to be able to edit Windows registry.
-2. Click "Choose UE folder" button and choose any folder wich contains Unreal Engine. It must contains "Engine" folder
+2. Click "Choose UE folder" button and choose any folder wich contains Unreal Engine. It must contains "Engine" folder.
 
-![image](https://user-images.githubusercontent.com/88453288/227162606-4923cbfe-89c7-4633-96be-9f4ad6fab86f.png)
+![image](https://user-images.githubusercontent.com/88453288/227186023-c618df73-5b14-4971-8678-08e73dfa0a43.png)
 
 3. After that PerfReportTools Filepath should change to what you choose. Click "Add command to context menu" and close program.
 
