@@ -1,4 +1,4 @@
-# UE CSV PerfReportTool
+# Auto CSV PerfReportTool
 ![image](https://user-images.githubusercontent.com/88453288/227159524-c72f2746-72c3-4179-b46d-4eb114621cf7.png)
 
 ## What it do
