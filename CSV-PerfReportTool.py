@@ -54,7 +54,7 @@ def choose_folder():
     global perf_report_tool_filepath
     perf_report_tool_filepath = filedialog.askdirectory() + '\\Engine\\Binaries\\DotNET\\CsvTools\\PerfreportTool.exe'
     perf_report_tool_filepath = perf_report_tool_filepath.replace('/', '\\')
-    curent_perfreport_fp_txt.configure(text='Current PerfReportTools Filepath:\n' + perf_report_tool_filepath)
+    curent_perfreport_fp_txt.configure(text='PerfReportTools Filepath:\n' + perf_report_tool_filepath)
 
 def run_csv_generator(csv_filepath, output):
     stream = os.popen('"' + perf_report_tool_filepath + '"'
