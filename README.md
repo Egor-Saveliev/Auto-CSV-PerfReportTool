@@ -2,7 +2,7 @@
 ![image](https://user-images.githubusercontent.com/88453288/227159524-c72f2746-72c3-4179-b46d-4eb114621cf7.png)
 
 ## What it do
-This script allows you to generate html tables from csv profiling files (LLM, FPSChart) using Unreal Engine's PerfReportTool by context menu command. Command appears in context menu only on folders, backgorund of folders and files with .csv extension. It requiers installed python 3.
+This program is a Python script that utilizes the PerfReportTool utility from Unreal Engine to process CSV files and generate performance reports. The script provides a GUI for users to choose the folder containing the PerfReportTool.exe, and it also adds a context menu command to allow users to generate performance reports directly from the Windows context menu (folders, backgorund of folders and files with .csv extension).
 
 ## How to use it
 1. Run script. It will ask administration rights to be able to edit Windows registry.
@@ -20,4 +20,3 @@ This script allows you to generate html tables from csv profiling files (LLM, FP
 When script started without command line arguments (from icon) window will shows up. Here you can choose Unreal Engine's folder and add command to Windows context menu. When you click button "Add command to context menu" script adds commands to Windows registry. So when you click in a context menu on "Create tables from CSV" it will run this script with such arguments as clicked **File/Folder filepath** and **PerfReportTools filepath**. Then script will run PerfReportTools wich generates tables. 
 
 ![image](https://user-images.githubusercontent.com/88453288/227180237-0fd86771-7d0b-4b57-a0a3-4833f544305d.png)
-
